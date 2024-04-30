@@ -107,7 +107,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--main-scrollbar-thumb);
-	   /* Add this as a property for a selector to which the effect has to be applied*/
+	/* Add this as a property for a selector to which the effect has to be applied*/
 
 	/* Chrome and Safari */
 	-webkit-border-top-left-radius:40px;

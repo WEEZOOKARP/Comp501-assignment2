@@ -8,6 +8,7 @@
   --main-selector-textcolour: #fff200;
   --main-button-gradient: linear-gradient(to right, #0096ff 0%, #2141eb 100%);
   --main-button-gradient-webkit: -webkit-gradient(linear, left top, right top, from(#0096ff), to(#2141eb));
+  --main-button-compatability-colour: #0096ff;
 }
 body {
     padding-left: 11em;
@@ -29,7 +30,7 @@ body {
   }
 	ul.navbar li {
     text-align: center;
-    background: #0096ff; /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+    background: var(--main-button-compatability-colour); /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
     background: var(--main-button-gradient-webkit);
     background: var(--main-button-gradient); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0096ff', endColorstr='#2141eb',GradientType=1 ); /* IE6-*/

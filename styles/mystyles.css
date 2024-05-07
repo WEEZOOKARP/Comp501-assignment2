@@ -15,8 +15,10 @@ body {
     padding-left: 11em;
     font: normal normal 300 18px/130% "Source Sans Pro", sans-serif;
 		color: var(--main-fonts-color);
-    background-color: var(--main-background)}
-	 ul.navbar {
+    background-color: var(--main-background)
+  }
+ul.navbar {
+    background-color: #000000;
     list-style-type: none;
     padding: 0;
     margin: 0;

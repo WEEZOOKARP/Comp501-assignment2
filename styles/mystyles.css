@@ -11,6 +11,8 @@
   --main-button-gradient-webkit: -webkit-gradient(linear, left top, right top, from(#0096ff), to(#2141eb));
   --main-button-compatability-colour: #0096ff;
 }
+
+
 body {
     padding-left: 11em;
     font: normal normal 300 18px/130% "Source Sans Pro", sans-serif;
@@ -84,8 +86,30 @@ ul.navbar {
     left: 0;
     width: 100%;
     height: 1%;
-    background-color: var(--main-header-line);
+    background: linear-gradient(270deg, #000000, #ffffff);
+    background-size: 400% 400%;
+  
+    -webkit-animation: Breathe 15s ease infinite;
+    -moz-animation: Breathe 15s ease infinite;
+    animation: Breathe 15s ease infinite;
   }
+  
+  @-webkit-keyframes Breathe {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @-moz-keyframes Breathe {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+  @keyframes Breathe {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
 
   /*--- Scrollbar --*/
   ::-webkit-scrollbar {
@@ -126,4 +150,10 @@ ul.navbar {
 ::selection {
   background: var(--main-selector-background);
   color: var(--main-selector-textcolour);
+}
+
+.reference {
+  background-color: #030c18;
+  padding-top: 0.1vh;
+  padding-bottom: 0.1vh;
 }

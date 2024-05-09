@@ -43,7 +43,6 @@ ul.navbar {
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 2px;
-    border-right: 10em solid black 
     text-align: center;
   }
   
@@ -53,6 +52,7 @@ ul.navbar {
     color: #000000;
     background-color: rgb(255, 255, 255);
     letter-spacing: 0.25em;
+    border-bottom: 0.1em solid rgb(255, 255, 255) ;
   }
   ul.navbar a {
     text-decoration: none;

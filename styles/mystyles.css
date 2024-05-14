@@ -54,6 +54,9 @@ ul.navbar {
     letter-spacing: 0.25em;
     border-top: 0.1em solid rgb(255, 255, 255) ;
     border-bottom: 0.1em solid rgb(255, 255, 255) ;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
   }
   ul.navbar a {
     text-decoration: none;

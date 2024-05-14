@@ -52,6 +52,7 @@ ul.navbar {
     color: #000000;
     background-color: rgb(255, 255, 255);
     letter-spacing: 0.25em;
+    border-top: 0.1em solid rgb(255, 255, 255) ;
     border-bottom: 0.1em solid rgb(255, 255, 255) ;
   }
   ul.navbar a {

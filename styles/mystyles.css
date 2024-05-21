@@ -12,6 +12,10 @@
   --main-button-compatability-colour: #0096ff;
 }
 
+footer {
+  background-color: #020a14;
+  padding-bottom: 0.5em;
+}
 
 body {
     padding-left: 11em;

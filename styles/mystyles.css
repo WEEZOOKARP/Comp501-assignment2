@@ -53,8 +53,8 @@ ul.navbar li {
   font-size: 13px;
   letter-spacing: 2px;
   text-align: center;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s, border 0.5s ease-in-out;
+  transition: all 0.2s, border 0.5s ease-in-out;
 }
 
 ul.navbar li:hover {
@@ -63,8 +63,8 @@ ul.navbar li:hover {
   color: #000000;
   background-color: rgb(255, 255, 255);
   letter-spacing: 0.25em;
-  border-top: 0.1em solid rgb(255, 255, 255);
-  border-bottom: 0.1em solid rgb(255, 255, 255);
+  border-top: 0.13em solid rgb(255, 255, 255);
+  border-bottom: 0.13em solid rgb(255, 255, 255);
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;

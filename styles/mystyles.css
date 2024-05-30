@@ -57,6 +57,12 @@ ul.navbar li {
   transition: all 0.2s, border 0.5s ease-in-out;
 }
 
+img {
+  border-radius:1em;
+  border-color:#fff;
+  border-style: solid;
+}
+
 ul.navbar li:hover {
   -webkit-transform: translateZ(50px);
   transform: translateZ(50px);

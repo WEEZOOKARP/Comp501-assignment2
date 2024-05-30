@@ -189,3 +189,23 @@ address {
   padding-top: 0.1vh;
   padding-bottom: 0.1vh;
 }
+
+table{
+  width: 80%;
+  border-collapse: collapse;
+  border: 2px solid #ffffff;
+  padding: 0.5em;
+  text-align: center;
+}
+
+th{
+  background-color: #030c18;
+  border: 2px solid #ffffff;
+  padding: 0.5em;
+}
+
+td {
+  background-color: #0A1D35;
+  border: 2px solid #777777;
+  padding: 0.5em;
+}
